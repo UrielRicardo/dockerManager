@@ -1,0 +1,10 @@
+version: "3"
+services:
+  ubuntu:
+    build: ./ubuntu
+    restart: "always"
+    command: [ "sh", "-c", "sleep infinity" ]
+  debian:
+    build: ./debian
+    restart: "always"
+    command: [ "sh", "-c", "sleep infinity" ]
