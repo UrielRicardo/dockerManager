@@ -8,3 +8,7 @@ services:
     build: ./debian
     restart: "always"
     command: [ "sh", "-c", "sleep infinity" ]
+  xubuntu:
+    build: ./xubuntu
+    restart: "always"
+    command: [ "sh", "-c", "sleep infinity" ]
