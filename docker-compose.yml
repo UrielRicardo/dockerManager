@@ -12,3 +12,7 @@ services:
     build: ./xubuntu
     restart: "always"
     command: [ "sh", "-c", "sleep infinity" ]
+ nubuntu:
+    build: ./nubuntu
+    restart: "always"
+    command: [ "sh", "-c", "sleep infinity" ]
